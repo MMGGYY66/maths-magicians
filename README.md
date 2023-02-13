@@ -1,1 +1,1 @@
-# mayhs-magician
+# maths-magicians
