@@ -96,7 +96,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,8 +141,6 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using:
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +162,6 @@ You can deploy this project using:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
 
 - [ ] **[Create a directory called components.]**
 - [ ] **[Inside components, create a new Calculator.js file.]**
