@@ -36,3 +36,13 @@ export const BottomValue = styled.div`
   font-size: 2.6rem;
   font-weight: bold;
 `;
+
+export const Button = styled.button`
+  background: rgba(255,255,255, 0.75);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  border: 2px outset #eee;
+  box-shadow: 2px 2px 12px black;
+`;
