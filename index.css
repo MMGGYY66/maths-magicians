@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Courier New",
+    monospace;
+}
+
+.oranges {
+  background-color: #f5913e !important;
+  color: white;
+  cursor: pointer;
+}
+
+.oranges:hover {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  color: white;
+  cursor: pointer;
+}
+
+.zero {
+  grid-column: 1/ 3;
+}
+
+.hove:hover {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  cursor: pointer;
+}
