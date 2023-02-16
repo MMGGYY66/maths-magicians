@@ -74,7 +74,6 @@ export default function Calculator() {
       default:
         return;
     }
-
     // eslint-disable-next-line consistent-return
     return result;
   };
@@ -109,15 +108,12 @@ export default function Calculator() {
         </TopValue>
         <BottomValue>{current}</BottomValue>
       </Screen>
-
       <Button className="hove" onClick={handleAllClear}>AC</Button>
-
       <Button data="+/-" onClick={appendValue} className="hove" operation>+/-</Button>
 
       <Button data="%" onClick={chooseOperatiion} className="hove" operation>%</Button>
 
       <Button data="÷" onClick={chooseOperatiion} className="oranges" operation>÷</Button>
-
       <Button data="7" onClick={appendValue} className="hove">7</Button>
       <Button data="8" onClick={appendValue} className="hove">8</Button>
 
