@@ -1,9 +1,8 @@
 <a name="readme-top"></a>
-# Math Magicians Project (Module 4)
+# Math Magicians Project (Module 3)
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="calculator.png" alt="logo" width="140"  height="auto" />
+  <img src="calculator.png" alt="logo" width="190"  height="auto" />
   <br/>
 
   <h3><b>Math Magicians Project</b></h3>
@@ -37,8 +36,6 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [math-magicians] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
 
 **[math-magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
     - [] Make simple calculations.
@@ -88,15 +85,11 @@
 - **[react-Jest-tests]**
 - **[react-Webpack]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +126,6 @@ To run the project, execute the following command:
  - Runs the app in the development mode. Open http://localhost:3000 to view it in the browser: run
  <code>npm start</code>
 
-
 ### Run tests
 
 To run tests, run the following command:
@@ -147,8 +139,6 @@ To run tests, run the following command:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Mohamed Gamil Eldimardash**
 
@@ -175,7 +165,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MMGGYY66/math-magicians/issues).
+Feel free to check the [issues page](https://github.com/MMGGYY66/math-magicians2/issues/2).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
