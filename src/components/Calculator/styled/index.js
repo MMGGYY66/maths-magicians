@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 440px;
+  width: 420px;
   margin: 50px auto;
   display: grid;
   justify-content: center;
   align-content: center;
-  grid-template-columns: repeat(4, 110px);
-  grid-template-rows: minmax(110px, 150px) repeat(5, 110px);
+  grid-template-columns: repeat(4, 105px);
+  grid-template-rows: minmax(105px, 150px) repeat(5, 105px);
   box-shadow: 6px 6px 26px black;
   border-radius: 16px;
   background: rgba(255,255,255,0.85);

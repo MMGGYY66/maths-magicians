@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   Container,
   Screen,
-  TopValue,
   BottomValue,
   Button,
 } from './styled';
@@ -11,69 +10,6 @@ import calculate from '../../logic/calculate';
 export default function Calculator() {
   const [result, setResult] = useState(0);
 
-  /*
-
-  const [current, setCurrent] = useState('');
-
-  const appendValue = (el) => {
-    const value = el.target.getAttribute('data');
-    if (value === '.' && current.includes('.')) return;
-    setCurrent(current + value);
-  };
-
-  const handleAllClear = () => {
-    setCurrent('');
-    setTopVal('');
-    setOperation('');
-  };
-
-  const compute = () => {
-    let result;
-    const currentNumber = parseFloat(current);
-    const topValNumber = parseFloat(topVal);
-    if (currentNumber.isNaN || topValNumber.isNaN) return;
-    switch (operation) {
-      case '÷':
-        result = topValNumber / currentNumber;
-        break;
-      case 'X':
-        result = topValNumber * currentNumber;
-        break;
-      case '%':
-        result = topValNumber % currentNumber;
-        break;
-      case '-':
-        result = topValNumber - currentNumber;
-        break;
-      case '+':
-        result = topValNumber + currentNumber;
-        break;
-      default:
-        return;
-    }
-    return result;
-  };
-
-  const equals = () => {
-    const value = compute();
-    if (value === undefined || value === null) return;
-    setCurrent(value);
-    setTopVal('');
-    setOperation('');
-  };
-
-  const chooseOperatiion = (el) => {
-    if (current === '') return;
-    if (topVal !== '') {
-      const value = compute();
-      setTopVal(value);
-    } else {
-      setTopVal(current);
-    }
-    setCurrent('');
-    setOperation(el.target.getAttribute('data'));
-  };
-*/
   const handleCLick = (e) => {
     setResult((prevState) => calculate(prevState, e.target.innerText));
   };
@@ -81,7 +17,6 @@ export default function Calculator() {
   return (
     <Container>
       <Screen>
-        <TopValue />
         <BottomValue>{result.next || result.total || 0}</BottomValue>
       </Screen>
 
