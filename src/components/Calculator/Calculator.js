@@ -52,7 +52,7 @@ export default function Calculator() {
 
       <Button data="." onClick={handleCLick} className="hove">.</Button>
 
-      <Button className="oranges" onClick={handleCLick}>=</Button>
+      <Button className="oranges equals" onClick={handleCLick}>=</Button>
     </Container>
   );
 }
