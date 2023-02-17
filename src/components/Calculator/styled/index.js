@@ -26,11 +26,6 @@ export const Screen = styled.div`
   text-align: right;
 `;
 
-export const TopValue = styled.div`
-  color: rgba(255,255,255,0.85);
-  font-size: 1.8rem;
-`;
-
 export const BottomValue = styled.div`
   color: rgba(255,255,255, 1);
   font-size: 2.6rem;
