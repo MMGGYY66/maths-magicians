@@ -23,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://MMGGYY66.github.io/maths-magicians/",
+  "homepage": "https://mmggyy66.github.io/Calculator2",
   "eslintConfig": {
     "extends": [
       "react-app",
