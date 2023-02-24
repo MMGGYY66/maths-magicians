@@ -165,7 +165,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MMGGYY66/math-magicians2/issues/2).
+Feel free to check the [issues page](https://github.com/MMGGYY66/maths-magicians/issues/10)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
