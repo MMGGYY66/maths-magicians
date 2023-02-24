@@ -69,27 +69,35 @@ code {
 }
 
 .nav-bar {
+  border-bottom: 2px solid rgb(207, 192, 192);
+  margin: 0 12px;
+}
+
+ul,
+.nav-bar {
   display: flex;
   justify-content: space-between;
-  padding: 0 0 10px;
   align-items: center;
+  list-style: none;
   color: rgb(67, 56, 56);
-  margin: 0 20px;
-  border-bottom: 2px solid rgb(207, 192, 192);
+  margin: 0 10px;
+
+  li {
+    border-right: 2px solid #2a2727;
+
+    &:last-child {
+      border: none;
+    }
+  }
 }
 
 a {
   text-decoration: none;
-  margin: 0 16px 0 0;
-  border-right: 2px solid #2a2727;
-  padding: 0 16px 0 0;
-  font-size: 24px;
+  margin: 0 10px;
+  padding: 0 10px;
+  font-size: 29px;
   color: #2a2727;
   font-weight: bold;
-
-  &:last-child {
-    border: none;
-  }
 }
 
 a:hover,
